@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>{{ title }}</title>
+
+	</head>
+	<body>
+		<table>
+		{% for key, value in data %}
+		    <tr>
+		        <td> {{ key }}: </td> <td> {{ value }} </td>
+		    </tr>
+		{% endfor %}
+		</table>
+	</body>
+</html>
